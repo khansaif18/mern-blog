@@ -1,6 +1,6 @@
 import { validateToken } from "../services/authentication.js"
 
-const secretKey = '@Noob6900'
+
 
 export const checkForAuthenticationCookie = (cookieName) => {
     return (req, res, next) => {
