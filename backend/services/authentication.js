@@ -1,6 +1,6 @@
 import jsonwebtoken from 'jsonwebtoken';
 
-const secretKey = '@Noob6900';
+
 
 export const createTokenForUser = (user) => {
     const payload = {
